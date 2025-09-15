@@ -1,0 +1,43 @@
+{
+    "users": {
+        "8165064673": {
+            "subscribed": true,
+            "premium": false
+        },
+        "7126069858": {
+            "subscribed": true,
+            "premium": false
+        },
+        "556325478": {
+            "subscribed": false,
+            "premium": false
+        }
+    },
+    "movies": {
+        "1": {
+            "video": "BAACAgQAAxkBAAIr72jH8cYPiZK3OeOT2lDVcik2PUd9AAJSFAACYiBoUhRE_fqd6E5VNgQ",
+            "text": "🎬Film nomi: Odamxoʻrlar\n🔖TILI: O'zbek tilida\n📹Sifati: 480p \n📆Yili: 2019\n🍿Janri : #tarjima #qorqinchli  \n🌐 Davlat: AQSH",
+            "code": "1"
+        }
+    },
+    "cartoons": {
+        "1": {
+            "video": "BAACAgQAAxkBAAIrsmjH7sfpp22fSalqtVgJ6Wki58emAAJTFAACg3OgUWJ0IWAB8lPnNgQ",
+            "text": "• Koko siri",
+            "code": "1"
+        }
+    },
+    "premieres": {
+        "1": {
+            "video": "BAACAgQAAxkBAAIsGmjH8oUWFSmvmD0_fca8Pb3lPPsQAAInCAACrxDAUgoiS0xgrztcNgQ",
+            "text": "🎥 Nomi: Teleport\n📹 Sifati: 480p\n📆 Yili: 2008\n🎞 Janri: Fantastika, jangari\n🌐 Davlati: AQSH\n🇺🇿 Tarjima: O'zbek tilida",
+            "code": "1"
+        }
+    },
+    "admins": [
+        8165064673
+    ],
+    "channels": [
+        "@Tarjimakinolar_bizda"
+    ]
+}
