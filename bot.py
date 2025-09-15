@@ -131,8 +131,6 @@ async def show_main_menu(message: types.Message, state: FSMContext):
         KeyboardButton(text="🎬 Qo'rqinchli kino"),
         KeyboardButton(text="📺 Multfilm"),
         KeyboardButton(text="🎭 Kino Premyera"),
-        KeyboardButton(text="💎 Premium xizmatlar"),
-        KeyboardButton(text="📋 Tugmali xabar")
     )
     
     # Admin panel tugmasini faqat adminlar uchun ko'rsatish
@@ -157,14 +155,6 @@ async def handle_cartoons(message: types.Message, state: FSMContext):
 async def handle_premieres(message: types.Message, state: FSMContext):
     await message.answer("Premyera kodini yuboring:")
     await state.set_state(UserState.waiting_for_premiere_code)
-
-@dp.message(F.text == "💎 Premium xizmatlar")
-async def handle_premium(message: types.Message):
-    await message.answer("Premium xizmatlar hozircha ishlab chiqilmoqda. Tez orada...")
-
-@dp.message(F.text == "📋 Tugmali xabar")
-async def handle_button_message(message: types.Message):
-    await message.answer("Tugmali xabar funksiyasi ishlab chiqilmoqda...")
 
 @dp.message(F.text == "👨‍💻 Admin panel")
 async def handle_admin_panel(message: types.Message):
