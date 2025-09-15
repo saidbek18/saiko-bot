@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: saiko-bot
+    env: python
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
